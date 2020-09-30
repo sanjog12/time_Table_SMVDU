@@ -44,6 +44,11 @@ class _mainscreen extends State<mainscreen>{
         onTap: _onpressed ,
         selectedItemColor: Colors.lightBlue,
       ),
+      body: Column(
+        children: [
+          Text("Very Good Morning"),
+        ],
+      ),
     );
   }
   
